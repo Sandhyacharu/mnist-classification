@@ -10,7 +10,7 @@ To Develop a convolutional deep neural network for digit classification and to v
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://user-images.githubusercontent.com/75235167/191184632-d7864b39-06b7-48ff-8c0c-c4092d8596f5.png)
 
 ## DESIGN STEPS
 
@@ -56,9 +56,9 @@ np.unique(y_test)
 model = keras.Sequential([
     tf.keras.layers.Conv2D(32,kernel_size=3,activation="relu",padding="same"),
     tf.keras.layers.MaxPool2D(),
-    tf.keras.layers.Conv2D(32,kernel_size=3,activation="relu"),
+    tf.keras.layers.Conv2D(16,kernel_size=3,activation="relu"),
     tf.keras.layers.MaxPool2D(),
-    tf.keras.layers.Conv2D(32,kernel_size=3,activation="relu"),
+    tf.keras.layers.Conv2D(8,kernel_size=3,activation="relu"),
     tf.keras.layers.MaxPool2D(),
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(10,activation="softmax")
@@ -88,18 +88,20 @@ np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 ```
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/75235167/191184943-beaeb8bd-ad6d-475f-be79-360efa4f8b79.png)
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/75235167/191185022-499021a3-67aa-4202-bd1f-3054e599a083.png)
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![image](https://user-images.githubusercontent.com/75235167/191185099-bc0f33a2-b6a6-4f1d-afe7-e2c348f779e5.png)
 
 ### New Sample Data Prediction
 
-Include your sample input and output for your hand written images.
+![image](https://user-images.githubusercontent.com/75235167/191185232-9d299919-7280-47b9-b667-429ede897d59.png)
 
 ## RESULT
+
+Thus a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is written and executed successfully.
