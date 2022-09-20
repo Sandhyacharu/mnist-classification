@@ -24,10 +24,6 @@ Build a CNN model
 Compile and fit the model and then predict
 
 ## PROGRAM
-
-Include your code here
-
-## OUTPUT
 ```python3
 import numpy as np
 from tensorflow import keras
@@ -86,6 +82,7 @@ img_28_gray_scaled = img_28_gray.numpy()/255.0
 
 np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 ```
+## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
 
 ![image](https://user-images.githubusercontent.com/75235167/191184943-beaeb8bd-ad6d-475f-be79-360efa4f8b79.png)
