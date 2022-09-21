@@ -74,7 +74,7 @@ confusion_matrix(y_test,x_test_predictions)
 
 print(classification_report(y_test,x_test_predictions))
 
-img = image.load_img('imagefive.jpg')
+img = image.load_img('imageeight.jpg')
 img_tensor = tf.convert_to_tensor(np.asarray(img))
 img_28 = tf.image.resize(img_tensor,(28,28))
 img_28_gray = tf.image.rgb_to_grayscale(img_28)
