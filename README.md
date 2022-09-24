@@ -114,20 +114,23 @@ print(x_single_prediction)
 ```
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://user-images.githubusercontent.com/75235167/192105540-9128552a-7912-4ff0-95ff-b1badbf3e9a2.png)
 
-![image](https://user-images.githubusercontent.com/75235167/191184943-beaeb8bd-ad6d-475f-be79-360efa4f8b79.png)
+![image](https://user-images.githubusercontent.com/75235167/192105586-f3990a2c-cd62-46a2-b803-ee30ea7ee878.png)
 
 ### Classification Report
 
-![image](https://user-images.githubusercontent.com/75235167/191185022-499021a3-67aa-4202-bd1f-3054e599a083.png)
+![image](https://user-images.githubusercontent.com/75235167/192105631-c9c72071-a0fc-4c22-a110-0c1fbbde7f38.png)
 
 ### Confusion Matrix
 
-![image](https://user-images.githubusercontent.com/75235167/191185099-bc0f33a2-b6a6-4f1d-afe7-e2c348f779e5.png)
+![image](https://user-images.githubusercontent.com/75235167/192105638-64181d2c-498c-4f38-adba-2957c4153281.png)
 
 ### New Sample Data Prediction
 
-![image](https://user-images.githubusercontent.com/75235167/191185232-9d299919-7280-47b9-b667-429ede897d59.png)
+![image](https://user-images.githubusercontent.com/75235167/192105657-d46b563b-676b-4e06-ba1c-343378cd136e.png)
+
+![image](https://user-images.githubusercontent.com/75235167/192105675-5d0ae6c7-e0c8-4ee7-aab9-c1ea20ddea6a.png)
 
 ## RESULT
 
