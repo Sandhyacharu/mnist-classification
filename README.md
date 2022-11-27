@@ -1,4 +1,4 @@
-### EX NO: 01
+### EX NO: 03
 ### DATE:
 # <p align="center">Convolutional Deep Neural Network for Digit Classification</p>
 
